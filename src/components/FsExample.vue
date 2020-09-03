@@ -4,18 +4,6 @@
       There was an error attempting to read from the file system.
     </div>
 
-    <button
-      data-test="fs-example-button"
-      @click="getCurrentDirectory"
-    >
-      <template v-if="!error">
-        Click for File System example
-      </template>
-      <template v-else>
-        Try again for File System example
-      </template>
-    </button>
-
     <template v-if="contents">
       <p>
         The contents of the current working directory:
