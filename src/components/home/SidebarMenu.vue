@@ -4,7 +4,7 @@
 style="background-color: #143256 !important; width: 160px; float: right !important; margin-top: -33px !important;" 
 class="rounded-0 border-0" v-b-toggle.sidebar>Open Menu</b-button>
 
-    <b-sidebar class="bg-primary" id="sidebar" title="Main Menu" shadow>
+    <b-sidebar style="color: red !important;" class="bg-primary sidebar" id="sidebar" title="Main Menu" shadow>
       <div class="px-3 py-2">
            
     <b-list-group>
@@ -35,4 +35,8 @@ class="rounded-0 border-0" v-b-toggle.sidebar>Open Menu</b-button>
     </div>
 </template>
 
+<style lang="scss">
+@import '~bootstrap/scss/bootstrap.scss';
+  @import '~bootstrap-vue/src/index.scss';
+</style>
 

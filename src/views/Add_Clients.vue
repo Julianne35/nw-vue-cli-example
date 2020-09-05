@@ -1,19 +1,20 @@
 <template>
   <div>
-    <Titlebar />
-    <h1>Add Clients</h1>
+    <MainAddClients />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Titlebar from '@/components/Titlebar.vue';
+import Titlebar from '@/components/home/Titlebar.vue';
+import MainAddClients from '@/components/addClients/MainAddClients.vue';
 
 
 export default {
   name: 'Add Clients',
   components: {
-    Titlebar
+    Titlebar,
+    MainAddClients
   }
 };
 </script>

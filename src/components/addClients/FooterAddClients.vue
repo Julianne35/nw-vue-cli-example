@@ -1,28 +1,15 @@
 <template>
-  <div id="barStyle">
-    <h5 class="d-flex pl-2">Client Database App</h5>
-    <SidebarMenu />
+  <div id="barStyleFooter">
+    <h5 class="d-flex pl-2">Footer</h5>
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import SidebarMenu from '@/components/SidebarMenu.vue';
-
-
-export default {
-  name: 'Titlebar',
-  components: {
-    SidebarMenu
-  }
-};
-</script>
-
 <style scoped>
-#barStyle {
+#barStyleFooter {
     display: block !important;
     width: 100% !important;
     height: 28px !important;
+    margin-top: 16px !important;
     background-color: #b5b5b5 !important;
 }
 h5 { 

@@ -11,10 +11,10 @@
 
 <script>
 // @ is an alias to /src
-import Logo from '@/components/Logo.vue';
-import Titlebar from '@/components/Titlebar.vue';
-import SearchTable from '@/components/SearchTable.vue';
-import Footer from '@/components/Footer.vue';
+import Logo from '@/components/home/Logo.vue';
+import Titlebar from '@/components/home/Titlebar.vue';
+import SearchTable from '@/components/home/SearchTable.vue';
+import Footer from '@/components/home/Footer.vue';
 
 export default {
   name: 'Background',
@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 #bkg {
-  background-image: url("../assets/background.jpg") !important;
+  background-image: url("../../assets/background.jpg") !important;
   background-size: cover !important;
   height: 800px !important;
 }
